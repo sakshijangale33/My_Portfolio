@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 200%;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <!-- Image -->
+    <section id="hero">
+        <div class="hero-content">
+            <div class="Image-Container">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+                <img src="Sakshi.jpg" alt="Centered Image">
+                
+            </div>
+            <h1>Hello, I'm Sakshi Jangale</h1>
+            <p>I'm a passionate web developer.</p>
+            <a href="#projects" class="btn">View My Work</a>
+
+        </div>
+    </section>
+    <!-- About -->
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Enthusiastic engineering student pursuing a Bachelor's degree in Electronics and Telecommunication Engineering.
+            Proficient in Java, Javascript.
+            Web development technologies like HTML,CSS,JAVASCRIPT, MySQL.
+            </p>
+
+    </section>
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill">
+                <h3>Java</h3>
+                <p>Proficient</p>
+            </div>
+            <div class="skill">
+                <h3>SpringBoot</h3>
+                <p>Beginner</p>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-1">
+            <h3>1.Number Game</h3>
+            <p><li>Generate a random number within a specified range, such as 1 to 100.</li></p>
+            <p><li>Prompt the user to enter their guess for the generated number.</li></p>
+            <p><li>Compare the user's guess with the generated number and provide feedback on whether the guess
+                is correct, too high, or too low.</li></p>
+            <p><li>Repeat steps 2 and 3 until the user guesses the correct number.</li></p>
+            <p><li>Limit the number of attempts the user has to guess the number.</li></p>
+            <p><li>Add the option for multiple rounds, allowing the user to play again.</li></p>
+            <p><li>Display the user's score, which can be based on the number of attempts taken or rounds won.</li></p>
+            <p><b>Key Skills : Java</b> </p>
+            <a href="https://github.com/sakshijangale33/CodSoft-Intership-Task/blob/c78cccf58ca20b35939543cd8569c3c69305c8f1/NUMBER%20GAME">Github</a>
+        </div>
+        <p>----------------------------------------------------------------------------------------------     </p>
+
+        <div class="project-2">
+            <h3>2.Personal Portfolio</h3>
+            <p>Personal portfolio website</p>
+            <p><b>Key Skills: HTML | CSS | JavaScript</b></p>
+        </div>
+        
+    </section>
+    <!-- Contacts -->
+    <section id="contact">
+        <h2>Contact Me!</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+   
+    <footer>
+        <div class="contact__information">
+
+            <div>
+
+                <h3 class="contact__title">Call me </h3>
+                <span class="contact__subtitle">+91-7588225855</span>
+                <div class="contact_container container grid">
+                    <i class="uil uil-phone contact__icon">
+                    </i>
+                </div>
+            </div>
+            <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">sakshijangale33@gmail.com</span>
+            </div>
+            <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Pune - Maharashtra</span>
+            </div>
+        </div>
+        <p>&copy; 2024 sakshijangale33. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
